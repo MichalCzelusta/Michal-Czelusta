@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 20px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    background-color: teal;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+ul li a:hover {
+    color: blue;
+}
